@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: #333333;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+::selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-webkit-selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ff7675;
+}
+
+.scrolltotop {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 22px;
+  color: #ffffff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main {
+  background-color: #f1f5f8;
+}
+
+.review-main {
+  max-width: 900px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 100px 0px;
+}
+
+.review-main > span {
+  display: block;
+  width: 200px;
+  height: 3px;
+  background-color: aquamarine;
+  margin: 20px auto;
+}
+
+.reviewOneImgquerte img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.reviewOneImgquerte {
+  width: 165px;
+  margin: auto;
+}
+
+.reviewOneImgquerte {
+  position: relative;
+}
+
+.reviewOneImgquerte span {
+  display: inline-block;
+  color: aquamarine;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 25px;
+}
+
+.reviewOne-img h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.reviewOne-img span {
+  font-weight: 600;
+  font-size: 18px;
+  color: aquamarine;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.reviewText p {
+  text-align: center;
+}
